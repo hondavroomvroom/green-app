@@ -154,20 +154,8 @@ st.markdown(
 
 st.markdown("<br><hr><br>", unsafe_allow_html=True)
 
-col2, col3, col4, col5, col6, space, col7 = st.columns([2, 1, 2, 1, 2, 1, 2])
+col3, col4, col5, col6, space, col7 = st.columns([1, 2, 1, 2, 1, 3])
 
-with col2:
-    st.markdown(
-        """
-        <h5>ℹ️ Instructions:</h5>
-        <ul style="line-height: 1.6;">
-            <li><strong>Upload your full-view building image</strong> in the middle column.</li>
-            <li><strong>Fill in preferences</strong> in the third column.</li>
-            <li>Click <strong>Submit</strong> to get green building tips.</li>
-        </ul>
-        """,
-        unsafe_allow_html=True,
-    )
 
 with col4:
     st.markdown("<h5>📤 Upload Your File</h5>", unsafe_allow_html=True)
