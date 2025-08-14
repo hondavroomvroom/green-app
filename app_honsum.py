@@ -154,7 +154,7 @@ st.markdown(
 
 st.markdown("<br><hr><br>", unsafe_allow_html=True)
 
-col3, col4, col5, col6, space, col7 = st.columns([1, 2, 1, 2, 1, 3])
+col4, col5, col6, space, col7 = st.columns([2, 0.5, 2, 0.5, 5])
 
 
 with col4:
