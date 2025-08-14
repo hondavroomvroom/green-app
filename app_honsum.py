@@ -208,4 +208,4 @@ with col7:
             mime="text/plain",
         )
     else:
-        st.info("Upload a photo and click 'Analyze Building' to see recommendations here.")
+        st.info("Upload a photo and click 'Submit' to see recommendations here.")
